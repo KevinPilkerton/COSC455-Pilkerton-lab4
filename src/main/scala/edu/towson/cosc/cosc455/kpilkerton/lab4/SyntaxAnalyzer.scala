@@ -75,6 +75,6 @@ class SyntaxAnalyzer {
     def Adverb() = {
       if(ADVERB contains Compiler.currentToken)
         Compiler.Scanner.getNextToken()
-      
+
     }
 }
